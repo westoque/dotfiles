@@ -1,0 +1,43 @@
+set background=dark
+colo one
+"colo solarized
+"colo sexy-railscasts-256
+"colo gruvbox
+
+"set guifont=InputMonoCompressed-Medium:h13
+set guifont=Iosevka:h14
+
+set noantialias
+"set antialias
+
+nmap <silent> <Leader>n :NERDTreeToggle<CR>
+nmap <silent> <Leader>l :noh<CR>
+nmap <silent> <C-l> :wincmd l<CR>
+nmap <silent> <C-k> :wincmd k<CR>
+nmap <silent> <C-j> :wincmd j<CR>
+nmap <silent> <C-h> :wincmd h<CR>
+nmap <silent> <F5> :CtrlPClearAllCaches<CR>
+
+noremap <C-s> :w<CR>
+noremap <Leader>s :w<CR>
+
+if has("gui_macvim")
+  set guitablabel=%f
+
+  noremap <D-1> :tabn 1<CR>
+  noremap <D-2> :tabn 2<CR>
+  noremap <D-3> :tabn 3<CR>
+  noremap <D-4> :tabn 4<CR>
+  noremap <D-5> :tabn 5<CR>
+  noremap <D-6> :tabn 6<CR>
+  noremap <D-7> :tabn 7<CR>
+  noremap <D-8> :tabn 8<CR>
+  noremap <D-9> :tabn 9<CR>
+
+  noremap <D-0> :tablast<CR>
+endif
+
+"Open NERDTree if no files specified
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+"autocmd BufEnter * lcd %:p:h
