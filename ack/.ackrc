@@ -1,0 +1,21 @@
+# Search unknown file-types
+--type-set=coffee=.coffee
+--type-set=cucumber=.feature
+--type-set=haml=.haml
+--type-set=sass=.sass,.scss
+
+# Do not search these directories for quicker lookup
+--ignore-dir=log
+--ignore-dir=tags
+--ignore-dir=tmp
+--ignore-dir=vendor
+--ignore-dir=node_modules
+--ignore-dir=dist
+--ignore-dir=coverage
+--ignore-dir=.idea
+--ignore-dir=public
+
+# Do not search in these files
+--ignore-file=is:structure.sql
+--ignore-file=is:tags
+--ignore-file=is:.byebug_history
