@@ -1,17 +1,18 @@
 set background=dark
-colo one
+"colo one
 "colo solarized
 "colo sexy-railscasts-256
-"colo gruvbox
+colo gruvbox
 
 "set guifont=InputMonoCompressed-Medium:h13
-set guifont=Iosevka:h14
+set guifont=InputMonoCompressed:h15
 
 set noantialias
 "set antialias
 
-nmap <silent> <Leader>n :NERDTreeToggle<CR>
+nmap <Leader>r :CtrlPClearAllCaches<CR>
 nmap <silent> <Leader>l :noh<CR>
+nmap <silent> <Leader>n :NERDTreeToggle<CR>
 nmap <silent> <C-l> :wincmd l<CR>
 nmap <silent> <C-k> :wincmd k<CR>
 nmap <silent> <C-j> :wincmd j<CR>
@@ -20,6 +21,7 @@ nmap <silent> <F5> :CtrlPClearAllCaches<CR>
 
 noremap <C-s> :w<CR>
 noremap <Leader>s :w<CR>
+noremap <Leader>f :Ack! ''<Left>
 
 if has("gui_macvim")
   set guitablabel=%f
