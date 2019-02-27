@@ -24,7 +24,7 @@ set guioptions-=L
 
 " Folding
 set foldmethod=syntax
-set foldlevel=0
+set foldlevel=1
 set foldnestmax=10
 set foldenable
 
