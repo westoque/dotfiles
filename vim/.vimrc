@@ -10,8 +10,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'ervandew/supertab'
 Plug 'airblade/vim-gitgutter'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'mileszs/ack.vim'
 
 " Plug for colorschemes
 Plug 'altercation/vim-colors-solarized'
@@ -32,6 +31,7 @@ Plug 'tomlion/vim-solidity'
 Plug 'elixir-editors/vim-elixir'
 Plug 'keith/swift.vim'
 Plug 'dart-lang/dart-vim-plugin'
+Plug 'pangloss/vim-javascript'
 
 " Plug for language extensions
 Plug 'tpope/vim-rails'
