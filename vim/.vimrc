@@ -17,6 +17,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'rakr/vim-one'
 Plug 'arty88/sexy-railscasts-256-theme'
 Plug 'morhetz/gruvbox'
+Plug 'NLKNguyen/papercolor-theme'
 
 " Plug for syntax
 Plug 'fatih/vim-go'
