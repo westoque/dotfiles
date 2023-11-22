@@ -31,4 +31,6 @@ alias gplrm="git pull --rebase origin master"
 alias gps="git push"
 alias gco="git checkout"
 
+alias aws="docker run --rm -it -v ~/.aws:/root/.aws public.ecr.aws/aws-cli/aws-cli $@"
+
 source "$HOME/.selfrc"
