@@ -22,6 +22,7 @@ nmap <silent> <F5> :CtrlPClearAllCaches<CR>
 noremap <C-s> :w<CR>
 noremap <Leader>s :w<CR>
 noremap <Leader>w :q!<CR>
+noremap <Leader>t :tabnew<CR>
 noremap <Leader>f :Ack! ''<Left>
 
 if has("gui_macvim")
